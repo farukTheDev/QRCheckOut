@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0014FE03278F861400F6CE9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0014FE02278F861400F6CE9F /* GoogleService-Info.plist */; };
+		005168F9278F49670034DD91 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005168F8278F49670034DD91 /* PaymentModel.swift */; };
+		005168FB278F58740034DD91 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005168FA278F58740034DD91 /* KeychainManager.swift */; };
+		005168FE278F5E560034DD91 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005168FD278F5E560034DD91 /* NetworkUtils.swift */; };
+		00516901278F5ED40034DD91 /* SendNotificationToUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00516900278F5ED40034DD91 /* SendNotificationToUserRequest.swift */; };
 		00B52029278E038100CE3CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B52028278E038100CE3CCD /* AppDelegate.swift */; };
 		00B5202B278E038100CE3CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5202A278E038100CE3CCD /* SceneDelegate.swift */; };
-		00B5202D278E038100CE3CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5202C278E038100CE3CCD /* ViewController.swift */; };
+		00B5202D278E038100CE3CCD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5202C278E038100CE3CCD /* HomeViewController.swift */; };
 		00B52030278E038100CE3CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B5202E278E038100CE3CCD /* Main.storyboard */; };
 		00B52032278E038500CE3CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B52031278E038500CE3CCD /* Assets.xcassets */; };
 		00B52035278E038500CE3CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B52033278E038500CE3CCD /* LaunchScreen.storyboard */; };
+		00B52040278E226000CE3CCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5203F278E226000CE3CCD /* Extensions.swift */; };
+		00B52043278E2B9200CE3CCD /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B52042278E2B9200CE3CCD /* CustomerViewController.swift */; };
+		00B52045278E2E6100CE3CCD /* CashierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B52044278E2E6100CE3CCD /* CashierViewController.swift */; };
+		B60003C6E0CADB4B1E4BBE02 /* Pods_QRCheckOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7EED7684F082AAC5B0C3A /* Pods_QRCheckOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0014FE02278F861400F6CE9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		005168F8278F49670034DD91 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		005168FA278F58740034DD91 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		005168FD278F5E560034DD91 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		00516900278F5ED40034DD91 /* SendNotificationToUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNotificationToUserRequest.swift; sourceTree = "<group>"; };
 		00B52025278E038100CE3CCD /* QRCheckOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCheckOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B52028278E038100CE3CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00B5202A278E038100CE3CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00B5202C278E038100CE3CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00B5202C278E038100CE3CCD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		00B5202F278E038100CE3CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00B52031278E038500CE3CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00B52034278E038500CE3CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B52036278E038500CE3CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B5203E278E137E00CE3CCD /* QRCheckOut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCheckOut.entitlements; sourceTree = "<group>"; };
+		00B5203F278E226000CE3CCD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00B52042278E2B9200CE3CCD /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		00B52044278E2E6100CE3CCD /* CashierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierViewController.swift; sourceTree = "<group>"; };
+		62E5395C098A9E6A1FA65155 /* Pods-QRCheckOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCheckOut.debug.xcconfig"; path = "Target Support Files/Pods-QRCheckOut/Pods-QRCheckOut.debug.xcconfig"; sourceTree = "<group>"; };
+		F6211701ABAA50053D5AAE2A /* Pods-QRCheckOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCheckOut.release.xcconfig"; path = "Target Support Files/Pods-QRCheckOut/Pods-QRCheckOut.release.xcconfig"; sourceTree = "<group>"; };
+		FDE7EED7684F082AAC5B0C3A /* Pods_QRCheckOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCheckOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60003C6E0CADB4B1E4BBE02 /* Pods_QRCheckOut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005168F7278F49430034DD91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				005168F8278F49670034DD91 /* PaymentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		005168FC278F5E390034DD91 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				005168FF278F5EB50034DD91 /* Requests */,
+				005168FD278F5E560034DD91 /* NetworkUtils.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		005168FF278F5EB50034DD91 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				00516900278F5ED40034DD91 /* SendNotificationToUserRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		00B5201C278E038100CE3CCD = {
 			isa = PBXGroup;
 			children = (
+				0014FE02278F861400F6CE9F /* GoogleService-Info.plist */,
 				00B52027278E038100CE3CCD /* QRCheckOut */,
 				00B52026278E038100CE3CCD /* Products */,
+				D127463F7447521F3DE35E08 /* Pods */,
+				EA9F5F23FF781600FB5E2A91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,47 @@
 		00B52027278E038100CE3CCD /* QRCheckOut */ = {
 			isa = PBXGroup;
 			children = (
+				005168FC278F5E390034DD91 /* Network */,
+				005168F7278F49430034DD91 /* Model */,
+				00B52041278E2B7A00CE3CCD /* ViewControllers */,
+				00B5203E278E137E00CE3CCD /* QRCheckOut.entitlements */,
 				00B52028278E038100CE3CCD /* AppDelegate.swift */,
 				00B5202A278E038100CE3CCD /* SceneDelegate.swift */,
-				00B5202C278E038100CE3CCD /* ViewController.swift */,
 				00B5202E278E038100CE3CCD /* Main.storyboard */,
 				00B52031278E038500CE3CCD /* Assets.xcassets */,
 				00B52033278E038500CE3CCD /* LaunchScreen.storyboard */,
 				00B52036278E038500CE3CCD /* Info.plist */,
+				00B5203F278E226000CE3CCD /* Extensions.swift */,
+				005168FA278F58740034DD91 /* KeychainManager.swift */,
 			);
 			path = QRCheckOut;
+			sourceTree = "<group>";
+		};
+		00B52041278E2B7A00CE3CCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00B5202C278E038100CE3CCD /* HomeViewController.swift */,
+				00B52042278E2B9200CE3CCD /* CustomerViewController.swift */,
+				00B52044278E2E6100CE3CCD /* CashierViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D127463F7447521F3DE35E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62E5395C098A9E6A1FA65155 /* Pods-QRCheckOut.debug.xcconfig */,
+				F6211701ABAA50053D5AAE2A /* Pods-QRCheckOut.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA9F5F23FF781600FB5E2A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7EED7684F082AAC5B0C3A /* Pods_QRCheckOut.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00B52039278E038500CE3CCD /* Build configuration list for PBXNativeTarget "QRCheckOut" */;
 			buildPhases = (
+				6FB3AA7406A7182B53BF4247 /* [CP] Check Pods Manifest.lock */,
 				00B52021278E038100CE3CCD /* Sources */,
 				00B52022278E038100CE3CCD /* Frameworks */,
 				00B52023278E038100CE3CCD /* Resources */,
+				8FEE0C9AE0E6B15A07BF4812 /* [CP] Embed Pods Frameworks */,
+				0014FE01278F7DF600F6CE9F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B52035278E038500CE3CCD /* LaunchScreen.storyboard in Resources */,
+				0014FE03278F861400F6CE9F /* GoogleService-Info.plist in Resources */,
 				00B52032278E038500CE3CCD /* Assets.xcassets in Resources */,
 				00B52030278E038100CE3CCD /* Main.storyboard in Resources */,
 			);
@@ -132,14 +218,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0014FE01278F7DF600F6CE9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+		};
+		6FB3AA7406A7182B53BF4247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCheckOut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEE0C9AE0E6B15A07BF4812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCheckOut/Pods-QRCheckOut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCheckOut/Pods-QRCheckOut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCheckOut/Pods-QRCheckOut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00B52021278E038100CE3CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B5202D278E038100CE3CCD /* ViewController.swift in Sources */,
+				00B5202D278E038100CE3CCD /* HomeViewController.swift in Sources */,
 				00B52029278E038100CE3CCD /* AppDelegate.swift in Sources */,
+				00B52045278E2E6100CE3CCD /* CashierViewController.swift in Sources */,
+				00B52043278E2B9200CE3CCD /* CustomerViewController.swift in Sources */,
+				005168FE278F5E560034DD91 /* NetworkUtils.swift in Sources */,
+				005168F9278F49670034DD91 /* PaymentModel.swift in Sources */,
+				00516901278F5ED40034DD91 /* SendNotificationToUserRequest.swift in Sources */,
 				00B5202B278E038100CE3CCD /* SceneDelegate.swift in Sources */,
+				00B52040278E226000CE3CCD /* Extensions.swift in Sources */,
+				005168FB278F58740034DD91 /* KeychainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +437,14 @@
 		};
 		00B5203A278E038500CE3CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E5395C098A9E6A1FA65155 /* Pods-QRCheckOut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QRCheckOut/QRCheckOut.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = PDS2F42P75;
 				INFOPLIST_FILE = QRCheckOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.farukkisik.QRCheckOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,9 +461,12 @@
 		};
 		00B5203B278E038500CE3CCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6211701ABAA50053D5AAE2A /* Pods-QRCheckOut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QRCheckOut/QRCheckOut.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDS2F42P75;
 				INFOPLIST_FILE = QRCheckOut/Info.plist;
@@ -314,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.farukkisik.QRCheckOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
