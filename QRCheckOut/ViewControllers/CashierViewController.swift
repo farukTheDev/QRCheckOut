@@ -71,7 +71,7 @@ class CashierViewController: UIViewController {
             
         alert.addAction(
             UIAlertAction(title:"Devam Ediyor", style: .default, handler:{(UIAlertAction)in
-                req.data = NotificationDataNode(payment_status: PaymentData.SUCCEED)
+                req.data = NotificationDataNode(payment_status: PaymentData.IN_PROGRESS)
                 NetworkUtils.sendPaymentNotification(request: req,
                                                      completionHandler: {(result, err) in
                                                         self.readerVC.dismiss(animated: true, completion: nil)
@@ -85,7 +85,7 @@ class CashierViewController: UIViewController {
 
         alert.addAction(
             UIAlertAction(title: "Başarısız", style: .destructive, handler:{ (UIAlertAction) in
-                req.data = NotificationDataNode(payment_status: PaymentData.SUCCEED)
+                req.data = NotificationDataNode(payment_status: PaymentData.FAILED)
                 NetworkUtils.sendPaymentNotification(request: req,
                                                      completionHandler: {(result, err) in
                                                         self.readerVC.dismiss(animated: true, completion: nil)
